@@ -1,10 +1,10 @@
 #just for decoration
-print("-----------------------------------")
+print("-"*30)
 #Adress of retailers
 myadress=["Dry Fruits LTD","154, Victoire Avenue,","30000 Fes"]
 print(*myadress, sep="\n")
 #just for decoration
-print("-----------------------------------")
+print("-"*30)
 
 #dictionry of product and their prices including discount
 #prices for pack are in MAD
@@ -22,6 +22,6 @@ product_prices={
 for product,price in product_prices.items():
     print(product,price)
 
-print("***********************************")
+print("*"*30)
 print("For FREE delivery contact +212-123-456-789")
-print("***********************************")
+print("*"*30)
